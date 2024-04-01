@@ -1,7 +1,26 @@
 # Containerizing-_WebApplication
-The main objective is to develop a minimal viable product (MVP)of the project management web application using HTML, CSS, and JavaScript. Additionally, you will containerize this application using Docker to ensure it can be easily deployed and scaled across different environments
+The main objective is to develop a minimal viable product (MVP)of the project management web application using HTML, CSS, and JavaScript. Additionally, you will containerize this application using Docker to ensure it can be easily deployed and scaled across different environment 
 
-## without any issues.
+## Running the Application Locally
+To run the application locally, make sure you have Docker installed on your system. Then, follow these steps:
 
-My startup plans to present this MVP at an upcoming tech conference to attract potential investors and early adopters. The ability to quickly deploy and scale the application in response to user feedback is crucial for its success. Using Docker demonstrates your team's technical proficiency and your commitment to modern, efficient development practices that are attractive to investors.
+Clone this repository to your local machine:
 
+git clone https://github.com/Stella-Remember/Containerizing-_WebApplication.git
+Navigate to the project directory:
+
+cd Containerizing-_WebApplication
+
+Build the Docker image:
+
+docker build -t task-managing:latest .
+Run the Docker container:
+
+docker run -d -p 8080:80 task-managing:latest
+Access the application in your web browser at http://localhost:3000.
+
+Docker Image
+You can view Image from DockerHub, DockerHub Image:https://hub.docker.com/repository/docker/rstella/my_app/general 
+
+Presentation slides
+You can view the slides using canva. Here is the Link:https
