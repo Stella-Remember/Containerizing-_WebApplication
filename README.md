@@ -6,19 +6,19 @@ To run the application locally, make sure you have Docker installed on your syst
 
 Clone this repository to your local machine:
 
-```bash  git clone https://github.com/Stella-Remember/Containerizing-_WebApplication.git
+```git clone https://github.com/Stella-Remember/Containerizing-_WebApplication.git
 
 Navigate to the project directory:
 
-~~ cd Containerizing-_WebApplication
+```cd Containerizing-_WebApplication
 
 Build the Docker image:
 
-~~ docker build -t task-managing:latest .
+``` docker build -t task-managing:latest .
 
 Run the Docker container:
 
-~~ docker run -d -p 8080:80 task-managing:latest
+```docker run -d -p 8080:80 task-managing:latest
 
 Access the application in your web browser at http://localhost:3000.
 
