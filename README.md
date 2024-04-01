@@ -6,25 +6,29 @@ Running the Application Locally
 
 To run the application locally, make sure you have Docker installed on your system. Then, follow these steps:
 
-Clone this repository to your local machine:
+1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/NiyonshutiDavid/Task-managing.git
+https://github.com/Stella-Remember/Containerizing-_WebApplication.git
 ```
-Navigate to the project directory:
+2.Navigate to the project directory:
 
 ```bash
-cd Task-managing
-Build the Docker image:
+cd Containerizing-_WebApplication
 ```
+3. Build the Docker image:
+```bash
 docker build -t task-managing:latest .
-Run the Docker container:
+```
 
+4. Run the Docker container:
 ```bash
 docker run -d -p 3000:3000 task-managing:latest
-Access the application in your web browser at http://localhost:3000.
 ```
-Docker Image
+
+5. Access the application in your web browser at http://localhost:8080.
+
+# Docker Image
 
 You can view Image from DockerHub, ```bash DockerHub Image:https://hub.docker.com/repository/docker/rstella/my_app/general
 ```
