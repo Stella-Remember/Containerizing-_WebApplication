@@ -2,7 +2,7 @@
 The main objective is to develop a minimal viable product (MVP)of the project management web application using HTML, CSS, and JavaScript. Additionally, you will containerize this application using Docker to ensure it can be easily deployed and scaled across different environment 
 
 # Usage
-Running the Application Locally
+# Running the Application Locally
 
 To run the application locally, make sure you have Docker installed on your system. Then, follow these steps:
 
