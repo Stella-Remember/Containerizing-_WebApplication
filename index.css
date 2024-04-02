@@ -1,36 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .task-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .task-item {
-    margin-bottom: 10px;
-  }
-  
-  .completed {
-    text-decoration: line-through;
-    color: #000;
-  }
-  .task-item {
-    margin-bottom: 10px;
-    display: flex; /* Add this line */
-    align-items: center; /* Add this line */
-  }
-  
-  .task-item input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
-  .task-item p {
-    margin-left: 10px; /* Add this line */
-  }
-  .task-item button {
-    margin-left: 10px; /* Adjust the value as needed */
-  }
+  font-family: Arial, sans-serif;
+  background-color: cream; /* Set background color to cream */
+  color: olive; /* Set text color to olive */
+}
+
+h1 {
+  color: olive; /* Set heading color to olive */
+}
+
+input[type="text"],
 button {
-    background-color: rgb(100, 60, 0); /* Change the color of the button */
-  }
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid olive; /* Set border color to olive */
+  border-radius: 5px;
+}
+
+button {
+  background-color: olive; /* Set button background color to olive */
+  color: cream; /* Set button text color to cream */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkolivegreen; /* Darken button background color on hover */
+}
+
+.task-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid olive; /* Set border color to olive */
+  border-radius: 5px;
+  background-color: lightyellow; /* Set background color to light yellow */
+}
+
+.task-item.completed {
+  background-color: lightgreen; /* Set background color to light green for completed tasks */
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item p {
+  margin: 5px 0;
+}
+
+.task-item button {
+  background-color: olive; /* Set button background color to olive */
+  color: cream; /* Set button text color to cream */
+  border: none;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: darkolivegreen; /* Darken button background color on hover */
+}
