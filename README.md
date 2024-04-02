@@ -30,8 +30,8 @@ docker run -d -p 3000:3000 task-managing:latest
 
 # Docker Image
 
-You can view Image from DockerHub, ```bash DockerHub Image:https://hub.docker.com/repository/docker/rstella/my_app/general
-```
+You can view Image from DockerHub, DockerHub Image:https://hub.docker.com/repository/docker/rstella/my_app/general
 
 Presentation slides
-You can view the slides using canva. Here is the Link:
+
+You can view the slides using canva. Here is the Link:https://www.canva.com/design/DAGBNkyFank/n4ejMxBHV5gBwGQTIGxztw/edit?utm_content=DAGBNkyFank&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
