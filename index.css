@@ -1,41 +1,41 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: cream; /* Set background color to cream */
-  color: olive; /* Set text color to olive */
+  background-color: cream; 
+  color: olive; 
 }
 
 h1 {
-  color: olive; /* Set heading color to olive */
+  color: olive; 
 }
 
 input[type="text"],
 button {
   padding: 10px;
   margin: 5px;
-  border: 1px solid olive; /* Set border color to olive */
+  border: 1px solid olive; 
   border-radius: 5px;
 }
 
 button {
-  background-color: olive; /* Set button background color to olive */
-  color: cream; /* Set button text color to cream */
+  background-color: olive; 
+  color: cream; 
   cursor: pointer;
 }
 
 button:hover {
-  background-color: darkolivegreen; /* Darken button background color on hover */
+  background-color: darkolivegreen; 
 }
 
 .task-item {
   margin: 10px 0;
   padding: 10px;
-  border: 1px solid olive; /* Set border color to olive */
+  border: 1px solid olive; 
   border-radius: 5px;
-  background-color: lightyellow; /* Set background color to light yellow */
+  background-color: lightyellow; 
 }
 
 .task-item.completed {
-  background-color: lightgreen; /* Set background color to light green for completed tasks */
+  background-color: lightgreen; 
 }
 
 .task-item input[type="checkbox"] {
@@ -47,12 +47,12 @@ button:hover {
 }
 
 .task-item button {
-  background-color: olive; /* Set button background color to olive */
-  color: cream; /* Set button text color to cream */
+  background-color: olive; 
+  color: cream; 
   border: none;
   cursor: pointer;
 }
 
 .task-item button:hover {
-  background-color: darkolivegreen; /* Darken button background color on hover */
+  background-color: darkolivegreen; 
 }
