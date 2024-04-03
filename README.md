@@ -16,11 +16,11 @@ cd Containerizing-_WebApplication
 ```
 3. Build the Docker image:
 ```bash
-docker build -t task-managing:latest .
+docker build -t Containerizing-_WebApplication:latest .
 ```
 4. Run the Docker container:
 ```bash
-docker run -d -p 3000:3000 task-managing:latest
+docker run -d -p 8080:80 Containerizing-_WebApplication:latest
 ```
 5. Access the application in your web browser at http://localhost:8080.
 
